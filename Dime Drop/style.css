@@ -1,0 +1,155 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    background-color: #1e1e1e;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    text-align: center;
+    width: 300px;
+    justify-content: flex-end;
+  }
+  
+  .logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00ffff;
+    margin-bottom: 1.5em;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    padding: 0.8em;
+    margin-bottom: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f0f0f0;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .input-field::placeholder {
+    color: #aaa;
+  }
+  
+  .login-btn {
+    background-color: #00ffff;
+    color: #121212;
+    padding: 0.8em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #00b3b3;
+    padding:flexwrap;
+  }
+  
+  .signup-link {
+    color: #00ffff;
+    margin-top: 1em;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  /* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 1em;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  }
+  
+  .logout-btn {
+    background-color: #ff4d4d;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Dashboard main styling */
+  .dashboard-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .dashboard {
+    background-color: #1e1e1e;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  }
+  
+  h2, h3 {
+    color: #00ffff;
+  }
+  
+  .balance {
+    font-size: 1.5em;
+    color: #f0f0f0;
+  }
+  
+  .transaction-input {
+    margin-top: 2em;
+  }
+  
+  .submit-btn {
+    background-color: #00ffff;
+    color: #121212;
+    padding: 0.8em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  .submit-btn:hover {
+    background-color: #00b3b3;
+  }
+  
+  /* Transaction List */
+  .transaction-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-list li {
+    background-color: #333;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 0.5em 0;
+    color: #f0f0f0;
+  }
+  

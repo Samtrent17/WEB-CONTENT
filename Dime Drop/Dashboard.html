@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIME DRIP - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <nav class="navbar">
+      <h1 class="logo">DIME DRIP</h1>
+      <a href="#" class="logout-btn">Logout</a>
+    </nav>
+
+    <div class="dashboard">
+      <h2>Dashboard</h2>
+      <p class="balance">Current Balance: UGX<span id="balance"> 200,000.00</span></p>
+      
+      <div class="transaction-input">
+        <h3>Add New Transaction</h3>
+        <form class="transaction-form">
+          <input type="number" placeholder="Amount" class="input-field" required>
+          <input type="text" placeholder="Description" class="input-field" required>
+          <select class="input-field" required>
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+          </select>
+          <button type="submit" class="submit-btn">Add Transaction</button>
+        </form>
+      </div>
+
+      <div class="transaction-list">
+        <h3>Recent Transactions</h3>
+        <button class="btn btn-color-2 project-btn" onclick="showTransaction">
+ 
+        <ul id="transaction-list"></ul>
+        <footer>
+            <nav>
+                
+            </nav>
+          </footer>
+    </div>
+    </div>
+  </div>
+ 
+</body>
+</html>
