@@ -1,0 +1,63 @@
+body{
+    background-color:#432f0f;
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+    justify-content: center;
+    gap: 5px;
+}
+.container img {
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px ;
+    border: 2px solid wheat;
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover {
+    width: 50%;
+}
+.nav nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+.details {
+    background-color: #111;    }
+
+.intro{
+    border-bottom: #111;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#FF0000 ; /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image in the background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Makes the body fill the viewport height */
+    width: 100vw; /* Makes the body fill the viewport width */
+  }
